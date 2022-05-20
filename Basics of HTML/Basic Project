@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOME PAGE</title>
+</head>
+
+<body>
+    <h1>Best HTML course</h1>
+    <!--h1=36px h2=30px h3=24px h4=18px h5=14px h6=12px-->
+    <p>For making text bold we use<b> tag </b></p>
+    <p>for making text bold we use &lt;b&gt; tag</p>
+    <br />
+    <hr />
+
+    <p>To define the important element used<strong> HTML </strong> strong tag</p>
+    <!--use strong text for increase ranking in SEO-->
+    <br />
+    <hr />
+    <p>use italic tag for <i>italic.</i></p>
+    <mark>This is the marked text </mark>
+    <br />
+    <small>Hello my name is Pranjal</small>
+    <del>My name is Pranjal</del>
+    <hr />
+    <h1>H<sub>2</sub>SO<sub>4</sub></h1>
+    <h1>a<sup>2</sup>+b<sup>2</sup></h1>
+    <br />
+    <hr />
+    <a href="https://www.codingninjas.com/codestudio/problem-lists/love-babbar-dsa-sheet-problems?page=2"
+        target="_blank">Visit now</a>
+    <br>
+    <a href="tel:8769968978">8769968978</a>
+    <br />
+    <a href="mailto:pranjalbansal589@gmail.com">pranjalbansal589@gmail.com</a>
+    <br />
+    <a href="/bit manipulation.pdf">download file</a>
+
+    <br />
+    <hr />
+
+
+    <a href="https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/" target="_blank"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYv0fX-djPJeCP-wuWBdNAXIjgx1NpZRSuyQ&usqp=CAU"></a>
+
+    <hr />
+    <br />
+
+    <!--Todo picture tag-->
+    <picture>
+        <source srcset="/IMG-20191028-WA0022.webp" />
+        <source srcset="/IMG-20191028-WA0022 (1).jpg" />
+        <img src="/IMG-20191028-WA0022 (1).jpg" width="100" />
+    </picture>
+
+    <br />
+    <hr />
+    <!--semantic layout-->
+    <header>
+        <p>MY header</p>
+        <nav>
+            <p>navbar</p>
+        </nav>
+    </header>
+
+    <main>
+        <p>main tag</p>
+    </main>
+
+    <footer>
+        <p>thapa @23018</p>
+    </footer>
+
+    <hr />
+
+    <ul style="list-style-type:square;">
+        <li>Home</li>
+        <li>Menu</li>
+        <li>About us</li>
+        <li>Contact</li>
+    </ul>
+    <br />
+    <ul style="list-style-type: square;">
+        <li>HTML5
+            <ul style="list-style-type: circle;">
+                <li>HTML semantic layout</li>
+                <li>semantic element
+                    <ol type="1;">
+                        <li>Header</li>
+                        <li>Footer</li>
+                    </ol>
+                </li>
+                <li>non semantic element
+                    <ol type="1;">
+                        <li>div</li>
+                        <li>Span</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+    <br />
+    <hr />
+
+    <br />
+    <table border="1" cellspacing="0" cellpadding="9">
+        <thead>
+            <tr>
+                <th>username</th>
+                <th>password</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pranjal</td>
+                <td>rhsfbx</td>
+            </tr>
+
+            <tr>
+                <td>aryam</td>
+                <td>rhsf</td>
+            </tr>
+            <tr>
+                <td>ayaan</td>
+                <td>dujkcn</td>
+            </tr>
+            <tr>
+                <td>ayani</td>
+                <td>rfhsvx</td>
+            </tr>
+            <tr>
+                <td>Pranjal</td>
+                <td>tehfd</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <hr/>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr >
+            <th colspan="7">Time Table</th>
+        </tr>
+     <tr >
+         <td rowspan="7">Hour</td>
+         <th>Mon</th>
+         <th>Tue</th>
+         <th>Wed</th>
+         <th>Thu</th>
+         <th>Fri</th>
+         <th>Sat</th>
+     </tr>
+     <tr>
+        <td>Math</td>
+        <td>Science</td>
+        <td>MAth</td>
+        <td>SS</td>
+        <td>Hindi</td>
+        <td>Eng</td>
+    </tr>
+    <tr>
+        <td>Hindi</td>
+        <td>Eng</td>
+        <td>Math</td>
+        <td>Sci</td>
+        <td>SST</td>
+        <td>Sanskrit</td>
+    </tr>
+    <tr>
+        <th colspan="6">LUNCH</th>
+    </tr>
+    <tr>
+        <td>Sci</td>
+        <td>SST</td>
+        <td>Sanskrit</td>
+        <td>Science</td>
+        <td>English</td>
+        <td rowspan="2">Game</td>
+    </tr>
+    <tr>
+        <td>Sanskrit</td>
+        <td>Science</td>
+        <td>MAth</td>
+        <td>Hindi</td>
+        <td>Humanvalues</td>
+    </tr>
+
+    </table>
+    <br/>
+    <hr/>
+    <br/>
+<h1>Registration form</h1>
+    <form action="#">
+        <label for="username">Enter your name</label>
+<input type="text" id="username" placeholder="name" value="abcd" maxlength="20" required/>
+<br/>
+<br/>
+<label for="password">password</label>
+<input type="password" id="password" value="password" required /> 
+<br/><br/>
+<label for="datemax"> Enetr a date before 1980-01-01:</label>
+<input type="date" id="datemax" name="datemax" max="1979-12-31" />
+<br/><br/>
+
+<label for="datemin"> Enetr a date before 1980-01-01:</label>
+<input type="date" id="datemin" name="datemin" min="2022-01-01" />
+<br/><br/>
+
+<label for="quantity" >Quantity between (1 and 5):</label>
+<input type="number" id="quantity" name="quantity" min="1" max="5" />
+<br/><br/>
+
+<label for="files">Select files:</label>
+<input type="file" id="files" name="files" multiple/>
+<br/><br/>
+<input list="browsers" name="browser">
+<datalist id="browsers">
+    <option value="Ineternat Explorer">
+        <option value="Firefox">
+            <option value="Chrome">
+                <option value="Opera">
+                    <option value="Safari">
+</datalist>
+<input type="range" name="" id=""/>
+<input type="submit" value="Submit">
+    </form>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28461.039222279407!2d77.2719621424649!3d26.915238387138565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3973c9616029fadd%3A0x299ed4ea117d688f!2sBayana%2C%20Rajasthan%20321401!5e0!3m2!1sen!2sin!4v1653052547255!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<hr/>
+<br/><br/>
+<video width="500" controls autoplay>
+    <source src="video.mp4">
+</video>
+
+
+
+</body>
+
+</html>
